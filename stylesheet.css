@@ -1,0 +1,15 @@
+h1 {
+    font-size: 20px;
+    color: #3377ff;
+    
+}
+a {
+    color: #3366aa;
+}
+a:hover {
+    color: #3388ff;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+}
