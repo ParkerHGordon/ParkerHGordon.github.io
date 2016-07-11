@@ -35,6 +35,10 @@ p {
     color: #888888;
     text-align: center;
 }
+ol {
+    display: block;
+    margin: 30px auto 10px auto;
+}
 a {
     color: #3366aa;
 }
