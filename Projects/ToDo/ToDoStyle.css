@@ -1,0 +1,48 @@
+@keyframes excited {
+    0%, 100%{transform: translate(0px, 0px);}
+    20%{transform: translate(2px, 1px);}
+    40%{transform: translate(-2px, 3px);}
+    60%{transform: translate(0px, -2px);}
+    80%{transform: translate(1px, 2px);}
+}
+h1 {
+    text-align: center;
+    color: #6688ff;
+}
+ul {
+    text-align: center;
+    margin: 20px;
+}
+li {
+    padding: 3px;
+}
+form {
+    text-align: center;
+}
+/*
+p, li, h1, input {
+    animation: excited .15s linear infinite;
+}
+*/
+input{
+    background-color: #cccccc;
+    border-color: #7777aa;
+    color: #222244;
+    padding: 3px;
+}
+.button{
+    background-color: #aaaaaa;
+}
+footer {
+    text-align: center;
+}
+.done {
+    color: grey;
+    text-decoration: line-through;
+}
+.todo {
+    color:black;
+}
+.stufftodo {
+    background: none;
+}
