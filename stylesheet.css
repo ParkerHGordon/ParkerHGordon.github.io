@@ -57,6 +57,11 @@ div {
     padding: 20px 5px;
     background: #cceeff;
 }
+canvas {
+    display: block;
+    margin: 0 auto;
+    background: #cccccc;
+}
 .answer {
     background: #eeeeee;
     border: 1px solid #4477aa;
