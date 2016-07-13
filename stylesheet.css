@@ -26,6 +26,7 @@ h2 {
     padding: 20px;
     border-radius: 40px 10px;
 }
+
 header {
     display: flex;
     justify-content: space-around;
@@ -49,6 +50,23 @@ img {
 display: block;
 margin: 0 auto 0 auto;
 }
+div {
+    display: flex;
+    justify-content: space-around;
+    border: 1px dashed #cccccc;
+    padding: 20px 5px;
+    background: #cceeff;
+}
+.answer {
+    background: #eeeeee;
+    border: 1px solid #4477aa;
+    border-top: 2px solid #4477aa;
+    
+}
+.answer:active {
+    background: #dddddd;
+}
+
 .excitingButton {
     display: block;
     margin: 90px auto 90px auto;
@@ -62,4 +80,8 @@ margin: 0 auto 0 auto;
     background-color: #99ee99;
     border: 1px solid #888888;
     animation: exciting-animation .2s linear infinite;
+}
+#question {
+    font-size: 20px;
+    color: #666666;
 }
