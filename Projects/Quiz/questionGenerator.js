@@ -68,6 +68,7 @@ answer1.onclick = function () {
 
     if (isItCorrect(answer1.innerHTML, correctAnswer)) {
         alert("You're correct!\nGood job, I'm so proud of you!");
+        generateProblem();
     }
     else {
         alert("Wrong!\nI am disappointed in you.");
@@ -77,6 +78,7 @@ answer2.onclick = function () {
 
     if (isItCorrect(answer2.innerHTML, correctAnswer)) {
         alert("You're correct!\nGood job, I'm so proud of you!");
+        generateProblem();
     }
     else {
         alert("Wrong!\nI am disappointed in you.");
@@ -86,6 +88,7 @@ answer3.onclick = function () {
 
     if (isItCorrect(answer3.innerHTML, correctAnswer)) {
         alert("You're correct!\nGood job, I'm so proud of you!");
+        generateProblem();
     }
     else {
         alert("Wrong!\nI am disappointed in you.");
