@@ -4,15 +4,18 @@ var heroX = 250;
 var heroY = 250;
 var oldHeroX = 0;
 var oldHeroY = 0;
-var hero;
-function gameFrame () {
-    ctx.putImageData(hero, heroX, heroY);
+var hero = new Image();
+hero.src = 'theHero.png';
+board.appendChild(hero);
+hero.
+alert("before gameloop");
+var gameLoop = setInterval(gameFrameLoop, 100);
 
+function gameFrameLoop () {
+    hero = ctx.getImageData(250, 250, 30, 30);
+    ctx.putImageData(hero, heroX, heroY);
 }
-function createHero () {
-    hero = new Image(25,25); //figure out how to fix it later
-    hero.src = 'theHero.png';
-}
+
 window.addEventListener('keydown', whatKey, true);
 function whatKey (evt) {
     var edgy = 0;
