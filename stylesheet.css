@@ -58,9 +58,11 @@ div {
     background: #cceeff;
 }
 canvas {
+    image-rendering: crisp-edges;
     display: block;
     margin: 0 auto;
-    background: #cccccc;
+    background: #eeeeee;
+    border: 1px solid #cccccc;
 }
 .answer {
     background: #eeeeee;
