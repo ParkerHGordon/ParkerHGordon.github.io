@@ -32,8 +32,25 @@ header {
     display: flex;
     justify-content: space-around;
 }
-
+form {
+    width: 30%;
+    min-width: 270px;
+    background-color: #cceeff;
+    padding: 10px;
+    margin: 0 auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+input {
+    width: 250px;
+    margin: 0 5px 0;
+}
+label {
+    padding: 5px;
+}
 p {
+    margin: 5px;
     font-size: 14px;
     color: #888888;
     text-align: center;
@@ -52,13 +69,7 @@ img {
 display: block;
 margin: 0 auto 0 auto;
 }
-div {
-    display: flex;
-    justify-content: space-around;
-    border: 1px dashed #cccccc;
-    padding: 20px 5px;
-    background: #cceeff;
-}
+
 canvas {
     image-rendering: crisp-edges;
     display: block;
@@ -97,4 +108,17 @@ canvas {
 #question {
     font-size: 20px;
     color: #666666;
+}
+
+#divAnswers {
+    display: flex;
+    justify-content: space-around;
+    border: 1px dashed #cccccc;
+    padding: 20px 5px;
+    background: #cceeff;
+}
+.divBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
