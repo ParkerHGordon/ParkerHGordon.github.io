@@ -74,6 +74,7 @@ canvas {
     image-rendering: crisp-edges;
     display: block;
     margin: 0 auto;
+    padding: 0;
     background: #eeeeee;
     border: 1px solid #cccccc;
 }
@@ -112,13 +113,9 @@ canvas {
 
 #divAnswers {
     display: flex;
+    margin: 5px 25%;
     justify-content: space-around;
     border: 1px dashed #cccccc;
     padding: 20px 5px;
     background: #cceeff;
-}
-.divBox {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
 }

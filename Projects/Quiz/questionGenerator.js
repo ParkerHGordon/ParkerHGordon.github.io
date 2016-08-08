@@ -1,10 +1,3 @@
-/* for some reason "innerHTML" wouldn't
-work unless it was in the quiz.html file...
-wait I think I figured it out...
-*/
-
-
-
 var answer1 = document.getElementById("answer1");
 var answer2 = document.getElementById("answer2");
 var answer3 = document.getElementById("answer3");
@@ -16,8 +9,8 @@ var number2;
 var symbol;
 var symbolNum;
 function generateProblem() {
-    number1 = Math.floor((Math.random() * 200) - 99); 
-    number2 = Math.floor((Math.random() * 200) - 99);
+    number1 = Math.floor((Math.random() * 200) - 100); 
+    number2 = Math.floor((Math.random() * 200) - 100);
     
     symbolNum = Math.floor((Math.random() * 3) + 1);
     switch (symbolNum) {
@@ -39,17 +32,17 @@ function generateProblem() {
     var whichIsCorrect = Math.floor((Math.random() * 3) + 1);
     switch (whichIsCorrect) {
         case 1: answer1.innerHTML = correctAnswer;
-                answer2.innerHTML = correctAnswer - Math.floor((Math.random() * 200) - 99);
-                answer3.innerHTML = correctAnswer + Math.floor((Math.random() * 200) - 99);
+                answer2.innerHTML = correctAnswer - Math.floor((Math.random() * 200) - 100);
+                answer3.innerHTML = correctAnswer + Math.floor((Math.random() * 200) - 100);
                 break;
         case 2:
-            answer1.innerHTML = correctAnswer + Math.floor((Math.random() * 200) - 99);
+            answer1.innerHTML = correctAnswer + Math.floor((Math.random() * 200) - 100);
             answer2.innerHTML = correctAnswer;
-            answer3.innerHTML = correctAnswer - Math.floor((Math.random() * 200) - 99);
+            answer3.innerHTML = correctAnswer - Math.floor((Math.random() * 200) - 100);
             break;
         case 3:
-            answer1.innerHTML = correctAnswer - Math.floor((Math.random() * 200) - 99);
-            answer2.innerHTML = correctAnswer + Math.floor((Math.random() * 200) - 99);
+            answer1.innerHTML = correctAnswer - Math.floor((Math.random() * 200) - 100);
+            answer2.innerHTML = correctAnswer + Math.floor((Math.random() * 200) - 100);
             answer3.innerHTML = correctAnswer;
     }
 }
