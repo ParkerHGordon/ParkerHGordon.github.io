@@ -17,7 +17,8 @@ li {
     padding: 3px;
 }
 form {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 /*
 p, li, h1, input {
